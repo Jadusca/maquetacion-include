@@ -1,0 +1,161 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.encabezado{
+  width: 100%;
+  height: 160px;
+  background-color: #D5EEF0;
+}
+
+.logo{
+/* border: 1px red solid; */
+width: 180px;
+margin: 10px;
+padding-left: 50px;
+}
+
+.autor{
+  color: #097578;
+  float: right;
+  /* border: 1px red solid; */
+  margin: 40px;
+}
+
+.menu{
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  padding: 20px;
+  display: inline-block;
+}
+
+.menu a{
+  text-decoration: none;
+  color: #097578;
+  font-weight: bold;
+  padding: 18px;
+}
+
+.menu a:hover{
+  background-color: #097578;
+  color: white;
+}
+
+.pie{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  background-color: #00544F;
+  padding: 10px;
+}
+
+.spa{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 300px;
+}
+
+.frase{
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  font-family: 'Times New Roman';
+  margin-right: 300px;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.instagram{
+  display: inline-block;
+  background-color: white;
+  padding: 10px;
+}
+
+.verde{
+  color: #097578;
+}
+
+/* Comienza lo diferente */
+
+.ancho{
+  width: 1000px;
+}
+
+.frase2{
+  background-color: #00544F;
+  padding: 50px;
+}
+
+.frase2 h1{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 70px;
+  line-height: 74px;
+}
+
+.contenedorfrase{
+  margin: auto;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.contenedorfrase h2{
+  color: #00544F;
+  font-size: 30px;
+}
+
+.contenedorfrase p{
+  font-size: 22px;
+}
+
+.contenedorfrase2{
+  margin: auto;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.contenedorfrase2 h2{
+  color: #00544F;
+  font-size: 30px;
+}
+
+.contenedorfrase2 p{
+  font-size: 22px;
+}
+
+.texto{
+  font-size: 35px;
+  line-height: 49px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #00544F;
+  text-align: center;
+  margin-top: 130px;
+  font-weight: bold;
+}
+
+.become{
+  color: #097578;
+  text-align: center;
+  font-size: 17px;
+  margin-top: 32px;
+}
+
+.become a{
+  background-color: #00544F;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
